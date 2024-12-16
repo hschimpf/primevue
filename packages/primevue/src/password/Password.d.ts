@@ -276,7 +276,7 @@ export interface PasswordProps extends Omit<InputHTMLAttributes, 'size'> {
     /**
      * Inline style of the input field.
      */
-    inputStyle?: object | undefined;
+    inputStyle?: string | object | undefined;
     /**
      * Style class of the input field.
      */
